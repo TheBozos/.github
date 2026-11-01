@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TheBozos/.github/master/assets/banner-dark.png">
+    <img src="https://raw.githubusercontent.com/TheBozos/.github/master/assets/banner.png" alt="The Bozos: PS2 recompilation, boubou666 and Arzaroth" width="100%">
+  </picture>
+</p>
+
 # hey, we're the bozos 🤡
 
 We take games and turn them into actual PC programs. No emulator and no compromise.
