@@ -1,10 +1,12 @@
-# hey, we're the bozos 👋
+# hey, we're the bozos 🤡
 
-We take PlayStation 2 games and turn them into actual PC programs. No emulator: the game's own code gets
-statically recompiled to C++, then we chip away at every bit of PS2 hardware it still leans on until it runs
-natively, sound and graphics included.
+We take games and turn them into actual PC programs. No emulator and no compromise.
+The game's own code gets statically recompiled to C++,
+then we chip away at every bit of PS2 hardware it still leans on until it runs
+natively. 
 
-**No game data in here, ever.** Every port builds from your own disc.
+Every port builds from your own disc. We don't want ninjas to stomp at our doors.
+Ninjas and clowns... would you imagine?
 
 ## the ports
 
@@ -23,11 +25,11 @@ Screenshots, status and downloads for all of them: **[RecompWatcher](https://the
 
 ## the engine
 
-They all run on our fork of [PS2Recomp](https://github.com/TheBozos/PS2Recomp), originally by
-[ran-j](https://github.com/ran-j/PS2Recomp). We've bolted a native renderer, a sound mixer and a pile of
+They all run on our fork of [PS2Recomp](https://github.com/TheBozos/PS2Recomp).
+We've bolted a native renderer, a sound mixer and a pile of
 other stuff onto it, and keep ripping out the emulation one piece at a time.
 
 ## who
 
 [boubou666](https://github.com/boubou666) and [Arzaroth](https://github.com/Arzaroth), plus a lot of very busy
-Claudes.
+Claudes. All coordinated via [a very advanced communication protocol](https://github.com/Arzaroth/c2c-conv).
