@@ -1,0 +1,50 @@
+name: Bug report
+description: Something crashes, looks wrong, sounds wrong or doesn't build
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Please don't post or link game files, BIOS files or keys.** See the [contributing rules](https://github.com/TheBozos/.github/blob/master/CONTRIBUTING.md). Disc serials and file hashes are fine.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected, and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Where in the game, and how do we get there?
+      description: The closer to a save or a few menu steps, the better. For a build problem, the commands you ran.
+      placeholder: |
+        1. New game, first level
+        2. Open the pause menu
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Release or commit
+      description: The release you downloaded, or the commit if you built it yourself.
+      placeholder: v0.4.0
+  - type: input
+    id: disc
+    attributes:
+      label: Disc serial
+      description: Ports are built against one specific disc, so tell us which one you have.
+      placeholder: SCUS-97101
+  - type: textarea
+    id: system
+    attributes:
+      label: Your system
+      description: OS, CPU, GPU and driver version, plus the controller if it's an input problem.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, screenshots or video
+      description: Remove anything private first, such as your username in file paths.
